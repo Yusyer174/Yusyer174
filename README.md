@@ -1,37 +1,82 @@
-# Hi, I'm Yusyer 👋
+<div align="center">
 
-**Aspiring AI engineer · Python · Machine learning · AI agents**
+# Yusyer | AI Engineering Portfolio
 
-I'm a technology student building practical AI and software engineering projects. I'm especially interested in reliable multi-agent systems, reproducible experiments, and tools that make AI decisions easier to evaluate and audit.
+**Building reliable AI agents and reproducible machine learning systems**
+
+[Agent Evaluation](https://github.com/Yusyer174/Nexus-Agent-Evaluation) · [Machine Learning](https://github.com/Yusyer174/house-prices-prediction-portfolio) · [About my work](#engineering-approach)
+
+</div>
+
+## About
+
+I'm a technology student working toward a career in AI engineering. I build practical Python projects with a focus on clear evaluation criteria, reproducibility, and software reliability.
+
+My main research interest is **NEXUS**, an independent multi-agent AI project exploring coordination, auditable decisions, and human oversight. The public evaluation tool below is a standalone prototype inspired by that work; the full system is not published.
 
 ## Featured projects
 
-| Project | Focus |
-| --- | --- |
-| [NEXUS Agent Evaluation](https://github.com/Yusyer174/Nexus-Agent-Evaluation) | Dependency-free Python tool for evaluating structured agent decisions, declared permissions, and evidence against explicit test cases. Includes synthetic examples and automated tests. |
-| [California Housing Price Prediction](https://github.com/Yusyer174/house-prices-prediction-portfolio) | Educational machine-learning project exploring housing data, linear regression, and model evaluation with scikit-learn. |
+### 01 / NEXUS Agent Evaluation
+
+[![Tests](https://github.com/Yusyer174/Nexus-Agent-Evaluation/actions/workflows/tests.yml/badge.svg)](https://github.com/Yusyer174/Nexus-Agent-Evaluation/actions/workflows/tests.yml)
+
+A lightweight, dependency-free Python evaluator for structured AI-agent outputs.
+
+- Checks expected decisions, declared actions, and evidence identifiers.
+- Rejects critical-case failures and unexpected prediction IDs.
+- Produces reproducible JSON reports and supports a configurable acceptance threshold.
+- Installable command-line tool (v0.2.0); **19 automated tests** validated on Python 3.10–3.13.
+
+[Source code and documentation](https://github.com/Yusyer174/Nexus-Agent-Evaluation) · [Verified CI run](https://github.com/Yusyer174/Nexus-Agent-Evaluation/actions/runs/43222260328)
+
+> Scope: evaluates structured declarations against explicit test cases, not real-world agent safety or actual runtime permissions.
+
+### 02 / California Housing Price Prediction
+
+[![Baseline validation](https://github.com/Yusyer174/house-prices-prediction-portfolio/actions/workflows/baseline.yml/badge.svg)](https://github.com/Yusyer174/house-prices-prediction-portfolio/actions/workflows/baseline.yml)
+
+An educational regression project with a reproducible training pipeline and a held-out test set.
+
+| Test metric | Verified baseline |
+| --- | ---: |
+| R² | 0.6161 |
+| RMSE | $70,925 |
+| MAE | $51,215 |
+
+- Uses scikit-learn pipelines for imputation, encoding, and linear regression.
+- Fits preprocessing on training data only.
+- Evaluates 4,128 held-out observations with a fixed random split.
+
+[Source code and notebook](https://github.com/Yusyer174/house-prices-prediction-portfolio) · [Verified CI run](https://github.com/Yusyer174/house-prices-prediction-portfolio/actions/runs/43220651075)
+
+> Scope: historical educational dataset; not a current real-estate valuation service.
 
 ## Technical toolkit
 
-**Languages & tools:** Python, Git, GitHub, Jupyter
+| Area | Tools and interests |
+| --- | --- |
+| Programming | Python, Git, GitHub |
+| Machine learning | scikit-learn, pandas, NumPy |
+| Data exploration | Jupyter, Matplotlib |
+| Software quality | unittest, GitHub Actions, reproducible experiments |
+| AI systems | Agent evaluation, multi-agent coordination, auditability |
 
-**Data & machine learning:** pandas, NumPy, scikit-learn, Matplotlib
+## Engineering approach
 
-**Engineering interests:** AI agent evaluation, automated testing, reproducibility, model reliability, and human oversight
+```text
+Define the problem → Build a baseline → Test assumptions
+         → Measure results → Document limitations → Iterate
+```
 
-## Currently building
+I aim to make each public project runnable, understandable, and honest about its limitations. A successful test suite is evidence about the tested behavior, not a guarantee of production readiness.
 
-**NEXUS** — an independent multi-agent AI research project. My focus is on coordination, explicit permission boundaries, reproducible evaluation, and auditable decisions.
+## Learning roadmap
 
-The public NEXUS Agent Evaluation repository is an early standalone prototype inspired by this work, not the complete private system.
-
-## What I'm working toward
-
-- Deepening my foundations in computer science and artificial intelligence.
-- Building useful, well-tested open-source tools.
-- Learning to evaluate AI systems with meaningful, reproducible experiments.
-- Developing a portfolio that demonstrates engineering decisions, not just final results.
+- AI agent evaluation with independently designed test cases.
+- Machine learning baselines, validation strategies, and error analysis.
+- Reliable multi-agent architectures and human oversight.
+- Software packaging, testing, documentation, and open-source collaboration.
 
 ---
 
-Explore the repositories above for source code, documentation, and examples. Feedback and reproducible bug reports are welcome.
+<sub>Open-source contributions, reproducible bug reports, and constructive technical feedback are welcome.</sub>
