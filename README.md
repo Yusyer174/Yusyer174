@@ -27,6 +27,8 @@ My ongoing private research project, **NEXUS**, explores multi-agent coordinatio
 
 **Boundaries:** It checks *reported fields*, not actual runtime execution, permission enforcement, or evidence authenticity.
 
+**Try it:** [5-minute independent trial](https://github.com/Yusyer174/Nexus-Agent-Evaluation/blob/main/docs/TRY_IT.md) · [GitHub Action integration](https://github.com/Yusyer174/Nexus-Agent-Evaluation/blob/main/action.yml) · [Give genuine feedback](https://github.com/Yusyer174/Nexus-Agent-Evaluation/issues/8)
+
 [Read documentation](https://github.com/Yusyer174/Nexus-Agent-Evaluation#readme) · [Browse tests](https://github.com/Yusyer174/Nexus-Agent-Evaluation/tree/main/tests) · [Issues](https://github.com/Yusyer174/Nexus-Agent-Evaluation/issues)
 
 ### 2. [California Housing Price Prediction](https://github.com/Yusyer174/house-prices-prediction-portfolio)
