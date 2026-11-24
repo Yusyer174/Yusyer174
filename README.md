@@ -1,52 +1,56 @@
-<div align="center">
+# Yus-Builds (@Yusyer174)
 
-# Yusyer | AI Engineering
+Technology student building practical, testable software while learning Python, machine learning and AI-agent evaluation.
 
-**Python · Reliable AI-agent evaluation · Reproducible machine learning**
+[**Try NEXUS in five minutes**](https://github.com/Yusyer174/Nexus-Agent-Evaluation/blob/main/docs/TRY_IT.md) · [View projects](#selected-projects) · [Open-source contributions](#open-source-collaboration)
 
-[Explore the evaluator](https://github.com/Yusyer174/Nexus-Agent-Evaluation) · [Try it in 5 minutes](https://github.com/Yusyer174/Nexus-Agent-Evaluation/blob/main/docs/TRY_IT.md) · [Give feedback](https://github.com/Yusyer174/Nexus-Agent-Evaluation/issues/8)
+## Selected projects
 
-</div>
+### [NEXUS Agent Evaluation](https://github.com/Yusyer174/Nexus-Agent-Evaluation)
 
-## What I build
+[![Python tests](https://github.com/Yusyer174/Nexus-Agent-Evaluation/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/Yusyer174/Nexus-Agent-Evaluation/actions/workflows/tests.yml)
+[![Action smoke test](https://github.com/Yusyer174/Nexus-Agent-Evaluation/actions/workflows/action-smoke.yml/badge.svg?branch=main)](https://github.com/Yusyer174/Nexus-Agent-Evaluation/actions/workflows/action-smoke.yml)
 
-I'm a technology student learning to build **testable, understandable AI systems**. I focus on reproducible experiments, useful failure-path tests, and documentation that explains what a tool *cannot* prove.
+An open-source, dependency-free Python tool that checks structured AI-agent outputs against explicit test cases. It evaluates declared decisions, allowed actions, required evidence identifiers and critical-case acceptance rules.
 
-### 01 · [NEXUS Agent Evaluation](https://github.com/Yusyer174/Nexus-Agent-Evaluation)
+- Python 3.10+ · CLI · GitHub Action · synthetic examples with no API key.
+- Reproducible passing and failing cases, automated tests, and installation checks.
+- [Quickstart](https://github.com/Yusyer174/Nexus-Agent-Evaluation#see-the-result) · [Consumer demonstration](https://github.com/Yusyer174/Nexus-Agent-Evaluation/blob/main/docs/CONSUMER_TRIAL.md) · [Input/output contract](https://github.com/Yusyer174/Nexus-Agent-Evaluation/blob/main/docs/INTEGRATION.md).
 
-[![Python tests](https://github.com/Yusyer174/Nexus-Agent-Evaluation/actions/workflows/tests.yml/badge.svg)](https://github.com/Yusyer174/Nexus-Agent-Evaluation/actions/workflows/tests.yml)
-[![GitHub Action smoke test](https://github.com/Yusyer174/Nexus-Agent-Evaluation/actions/workflows/action-smoke.yml/badge.svg)](https://github.com/Yusyer174/Nexus-Agent-Evaluation/actions/workflows/action-smoke.yml)
+**Scope:** This is an early standalone evaluator of reported outputs, not a runtime security sandbox. It does not verify actual execution, evidence authenticity or real-world agent safety.
 
-A **dependency-free Python evaluator** for structured AI-agent decisions: expected decisions, permitted declared actions, evidence identifiers and critical-case gates.
+### [California Housing Price Prediction](https://github.com/Yusyer174/house-prices-prediction-portfolio)
 
-- Run it locally, install the CLI or include the composite GitHub Action in CI.
-- Inspect accepted **and deliberately rejected** synthetic cases with no model API key.
-- [Quickstart](https://github.com/Yusyer174/Nexus-Agent-Evaluation#see-the-result) · [Code and tests](https://github.com/Yusyer174/Nexus-Agent-Evaluation/tree/main/tests) · [Contributor roadmap](https://github.com/Yusyer174/Nexus-Agent-Evaluation/blob/main/docs/ROADMAP.md)
+[![Baseline validation](https://github.com/Yusyer174/house-prices-prediction-portfolio/actions/workflows/baseline.yml/badge.svg?branch=main)](https://github.com/Yusyer174/house-prices-prediction-portfolio/actions/workflows/baseline.yml)
 
-**Boundary:** This checks *reported declarations*, not real execution, authority or evidence authenticity. It is a public standalone prototype, not the private NEXUS runtime.
+Educational scikit-learn regression project with a reproducible train/test split and preprocessing fitted on training data only.
 
-### 02 · [California Housing Price Prediction](https://github.com/Yusyer174/house-prices-prediction-portfolio)
-
-[![Baseline validation](https://github.com/Yusyer174/house-prices-prediction-portfolio/actions/workflows/baseline.yml/badge.svg)](https://github.com/Yusyer174/house-prices-prediction-portfolio/actions/workflows/baseline.yml)
-
-An educational **scikit-learn regression baseline**, with preprocessing fitted on training data only, a reproducible 80/20 split and documented limitations.
-
-| Verified historical holdout (4,128 examples) | Result |
+| Historical holdout (4,128 examples) | Result |
 | --- | ---: |
 | R² | 0.6161 |
 | RMSE | $70,925 |
 | MAE | $51,215 |
 
-[Run locally](https://github.com/Yusyer174/house-prices-prediction-portfolio#run-locally) · [Model card](https://github.com/Yusyer174/house-prices-prediction-portfolio/blob/main/MODEL_CARD.md)
+[Reproduce the baseline](https://github.com/Yusyer174/house-prices-prediction-portfolio#run-locally) · [Model card and limitations](https://github.com/Yusyer174/house-prices-prediction-portfolio/blob/main/MODEL_CARD.md) · [Validation run](https://github.com/Yusyer174/house-prices-prediction-portfolio/actions/runs/43220651075).
 
-## Engineering approach
+The historical holdout is a single evaluation split, not evidence of generalization to new regions or current house prices.
 
-**Define the expected behavior → build a small baseline → test failure paths → publish reproducible evidence → improve from review.**
+## Open-source collaboration
 
-Tools and current interests: **Python, Git, GitHub Actions, unittest, pandas, NumPy, scikit-learn, agent evaluation, and software reliability.**
+- [AI-Research-Agent — PR #2](https://github.com/hemanthkumar1012/AI-Research-Agent/pull/2): submitted a focused citation-source isolation regression test following the maintainer's guidance. See the PR for its current review and CI status.
+- [NEXUS — issue #9 and PR #16](https://github.com/Yusyer174/Nexus-Agent-Evaluation/pull/16): an external contributor submitted a duplicate-JSON-key regression test; I reviewed the contribution. See the PR for its current checks and merge status.
+- [Independent feedback — issue #8](https://github.com/Yusyer174/Nexus-Agent-Evaluation/issues/8): open invitation to try the public evaluator and report what works, what fails and what is unclear.
 
-## Open to collaboration
+These contributions are evidence of collaboration, not proof of external product adoption.
 
-I welcome reproducible bug reports, test cases, documentation fixes and honest feedback on the public evaluator. If you're new to contributing, there is a [small first issue](https://github.com/Yusyer174/Nexus-Agent-Evaluation/issues/9). You can also try the [five-minute trial](https://github.com/Yusyer174/Nexus-Agent-Evaluation/blob/main/docs/TRY_IT.md) and explain what helped—or what didn't.
+## What I am learning
 
-Please do not post credentials, private prompts, proprietary traces or personal information. Neither the public projects nor their tests claim independent safety certification or broad adoption.
+Python · Git · GitHub Actions · unittest · pandas · NumPy · scikit-learn · agent evaluation · reproducible experiments.
+
+My approach: define expected behavior, test failure paths, publish reproducible evidence, and improve based on review. I use AI-assisted development tools while working to understand, test and explain the resulting code.
+
+## Contribute or give feedback
+
+[Try the evaluator](https://github.com/Yusyer174/Nexus-Agent-Evaluation/blob/main/docs/TRY_IT.md) · [Open issues](https://github.com/Yusyer174/Nexus-Agent-Evaluation/issues?q=is%3Aissue+is%3Aopen) · [Contributor guide](https://github.com/Yusyer174/Nexus-Agent-Evaluation/blob/main/CONTRIBUTING.md).
+
+Focused bug reports, regression tests and documentation improvements are welcome. Please use synthetic or non-sensitive examples; never publish credentials or private agent data.
