@@ -2,7 +2,7 @@
 
 I’m a technology student learning software engineering through Python projects in machine learning and AI-agent evaluation. I publish runnable examples, test results and limitations so others can check the work.
 
-[**Try NEXUS in five minutes**](https://github.com/Yusyer174/Nexus-Agent-Evaluation/blob/main/docs/TRY_IT.md) · [View projects](#selected-projects) · [Open-source contributions](#open-source-collaboration)
+[**Try the live NEXUS Evaluation Lab**](https://yusyer174.github.io/Nexus-Agent-Evaluation/) · [CLI quickstart](https://github.com/Yusyer174/Nexus-Agent-Evaluation/blob/main/docs/TRY_IT.md) · [View projects](#selected-projects) · [Open-source contributions](#open-source-collaboration)
 
 ## Selected projects
 
@@ -10,6 +10,7 @@ I’m a technology student learning software engineering through Python projects
 
 A dependency-free Python evaluator for catching regressions in structured AI-agent outputs. It checks reported decisions, actions and evidence IDs against explicit test cases.
 
+- [Open the interactive browser demo](https://yusyer174.github.io/Nexus-Agent-Evaluation/): explore five synthetic scenarios, edit test cases and predictions, adjust the minimum pass rate, and inspect or export the resulting report. No installation or API key required.
 - Run the [passing and failing examples](https://github.com/Yusyer174/Nexus-Agent-Evaluation#see-the-result) with Python 3.10+ and no API key.
 - See the [input/output contract](https://github.com/Yusyer174/Nexus-Agent-Evaluation/blob/main/docs/INTEGRATION.md), [GitHub Action demo](https://github.com/Yusyer174/Nexus-Agent-Evaluation/blob/main/docs/CONSUMER_TRIAL.md) and [CI runs](https://github.com/Yusyer174/Nexus-Agent-Evaluation/actions?query=branch%3Amain).
 
@@ -32,7 +33,8 @@ These results describe one historical holdout. Generalization to new regions and
 ## Open-source collaboration
 
 - I submitted a draft [PR to AI-Research-Agent](https://github.com/hemanthkumar1012/AI-Research-Agent/pull/2) with a focused citation-source isolation test, following the upstream maintainer’s guidance.
-- A contributor submitted a duplicate-JSON-key regression test for [NEXUS issue #9](https://github.com/Yusyer174/Nexus-Agent-Evaluation/issues/9). I approved the code review. [PR #16](https://github.com/Yusyer174/Nexus-Agent-Evaluation/pull/16) shows its current checks and merge status.
+- An external contributor submitted a duplicate-JSON-key regression test for [NEXUS issue #9](https://github.com/Yusyer174/Nexus-Agent-Evaluation/issues/9). I reviewed it, and [PR #16](https://github.com/Yusyer174/Nexus-Agent-Evaluation/pull/16) was merged after all 15 CI checks passed.
+- I submitted [RepoHeart PR #107](https://github.com/OpenAgentHQ/repo-heart/pull/107), a synthetic failed-workflow event fixture for an existing contributor task; it is awaiting upstream review.
 - [NEXUS issue #8](https://github.com/Yusyer174/Nexus-Agent-Evaluation/issues/8) invites developers to try the evaluator and report what works, what fails and what is unclear.
 
 ## What I am learning
@@ -43,6 +45,6 @@ I use AI tools to assist development. My learning process includes reading the r
 
 ## Contribute or give feedback
 
-[Try the evaluator](https://github.com/Yusyer174/Nexus-Agent-Evaluation/blob/main/docs/TRY_IT.md) · [Open issues](https://github.com/Yusyer174/Nexus-Agent-Evaluation/issues?q=is%3Aissue+is%3Aopen) · [Contributor guide](https://github.com/Yusyer174/Nexus-Agent-Evaluation/blob/main/CONTRIBUTING.md).
+[Open the live demo](https://yusyer174.github.io/Nexus-Agent-Evaluation/) · [Try the CLI](https://github.com/Yusyer174/Nexus-Agent-Evaluation/blob/main/docs/TRY_IT.md) · [Open issues](https://github.com/Yusyer174/Nexus-Agent-Evaluation/issues?q=is%3Aissue+is%3Aopen) · [Contributor guide](https://github.com/Yusyer174/Nexus-Agent-Evaluation/blob/main/CONTRIBUTING.md).
 
 Focused bug reports, regression tests and documentation improvements are welcome. Please use synthetic or non-sensitive examples and keep credentials and private agent data out of reports.
