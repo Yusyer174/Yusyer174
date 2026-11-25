@@ -34,6 +34,7 @@ These results describe one historical holdout. Generalization to new regions and
 
 - I submitted a draft [PR to AI-Research-Agent](https://github.com/hemanthkumar1012/AI-Research-Agent/pull/2) with a focused citation-source isolation test, following the upstream maintainer’s guidance.
 - An external contributor submitted a duplicate-JSON-key regression test for [NEXUS issue #9](https://github.com/Yusyer174/Nexus-Agent-Evaluation/issues/9). I reviewed it, and [PR #16](https://github.com/Yusyer174/Nexus-Agent-Evaluation/pull/16) was merged after all 15 CI checks passed.
+- A second external contributor added regression tests for duplicate evidence identifiers. [PR #20](https://github.com/Yusyer174/Nexus-Agent-Evaluation/pull/20) passed all six PR workflows and was merged.
 - I submitted [RepoHeart PR #107](https://github.com/OpenAgentHQ/repo-heart/pull/107), a synthetic failed-workflow event fixture for an existing contributor task; it is awaiting upstream review.
 - [NEXUS issue #8](https://github.com/Yusyer174/Nexus-Agent-Evaluation/issues/8) invites developers to try the evaluator and report what works, what fails and what is unclear.
 
