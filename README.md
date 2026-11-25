@@ -14,6 +14,8 @@ A dependency-free Python evaluator for catching regressions in structured AI-age
 - Run the [passing and failing examples](https://github.com/Yusyer174/Nexus-Agent-Evaluation#see-the-result) with Python 3.10+ and no API key.
 - See the [input/output contract](https://github.com/Yusyer174/Nexus-Agent-Evaluation/blob/main/docs/INTEGRATION.md), [GitHub Action demo](https://github.com/Yusyer174/Nexus-Agent-Evaluation/blob/main/docs/CONSUMER_TRIAL.md) and [CI runs](https://github.com/Yusyer174/Nexus-Agent-Evaluation/actions?query=branch%3Amain).
 
+The latest verified main revision includes 37 Python regression tests; the [unpublished 0.3.0rc1 review candidate](https://github.com/Yusyer174/Nexus-Agent-Evaluation/pull/22) adds synthetic scenarios and explicit scope counterexamples. CI results and candidate status are visible on the linked pull request.
+
 This early prototype checks reported outputs. Runtime enforcement, evidence authentication and real-world agent safety are outside its scope.
 
 ### [California Housing Price Prediction](https://github.com/Yusyer174/house-prices-prediction-portfolio)
@@ -35,7 +37,7 @@ These results describe one historical holdout. Generalization to new regions and
 - I submitted a draft [PR to AI-Research-Agent](https://github.com/hemanthkumar1012/AI-Research-Agent/pull/2) with a focused citation-source isolation test, following the upstream maintainer’s guidance.
 - An external contributor submitted a duplicate-JSON-key regression test for [NEXUS issue #9](https://github.com/Yusyer174/Nexus-Agent-Evaluation/issues/9). I reviewed it, and [PR #16](https://github.com/Yusyer174/Nexus-Agent-Evaluation/pull/16) was merged after all 15 CI checks passed.
 - A second external contributor added regression tests for duplicate evidence identifiers. [PR #20](https://github.com/Yusyer174/Nexus-Agent-Evaluation/pull/20) passed all six PR workflows and was merged.
-- I submitted [RepoHeart PR #107](https://github.com/OpenAgentHQ/repo-heart/pull/107), a synthetic failed-workflow event fixture for an existing contributor task; it is awaiting upstream review.
+- I submitted [RepoHeart PR #107](https://github.com/OpenAgentHQ/repo-heart/pull/107), a synthetic `workflow_run.completed` fixture with a failure conclusion for an existing contributor task; it is awaiting upstream review.
 - [NEXUS issue #8](https://github.com/Yusyer174/Nexus-Agent-Evaluation/issues/8) invites developers to try the evaluator and report what works, what fails and what is unclear.
 
 ## What I am learning
