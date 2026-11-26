@@ -38,6 +38,7 @@ These results describe one historical holdout. Generalization to new regions and
 - An external contributor submitted a duplicate-JSON-key regression test for [NEXUS issue #9](https://github.com/Yusyer174/Nexus-Agent-Evaluation/issues/9). I reviewed it, and [PR #16](https://github.com/Yusyer174/Nexus-Agent-Evaluation/pull/16) was merged after all 15 CI checks passed.
 - A second external contributor added regression tests for duplicate evidence identifiers. [PR #20](https://github.com/Yusyer174/Nexus-Agent-Evaluation/pull/20) passed all six PR workflows and was merged.
 - I submitted [RepoHeart PR #107](https://github.com/OpenAgentHQ/repo-heart/pull/107), a synthetic `workflow_run.completed` fixture with a failure conclusion for an existing contributor task; it is awaiting upstream review.
+- Two more external developers have submitted test-only contributions: Aadithya-kl ([PR #26](https://github.com/Yusyer174/Nexus-Agent-Evaluation/pull/26), [PR #27](https://github.com/Yusyer174/Nexus-Agent-Evaluation/pull/27)) and jwalith4418-Mj ([PR #28](https://github.com/Yusyer174/Nexus-Agent-Evaluation/pull/28)). An AI-assisted maintainer review reproduced all seven new tests and the combined 44-test suite locally on Python 3.13.5; GitHub Actions approval and merge are still pending. These are submitted contributions, not merged work or adoption evidence.
 - [NEXUS issue #8](https://github.com/Yusyer174/Nexus-Agent-Evaluation/issues/8) invites developers to try the evaluator and report what works, what fails and what is unclear.
 
 ## What I am learning
