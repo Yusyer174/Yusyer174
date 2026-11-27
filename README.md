@@ -5,6 +5,12 @@
 <h3 align="center">Technology student · Aspiring AI engineer · Open-source builder</h3>
 
 <p align="center">
+  <a href="https://github.com/Yusyer174/Nexus-Agent-Evaluation/actions/workflows/tests.yml"><img alt="NEXUS tests on main" src="https://github.com/Yusyer174/Nexus-Agent-Evaluation/actions/workflows/tests.yml/badge.svg?branch=main"></a>
+  <a href="https://github.com/Yusyer174/Nexus-Agent-Evaluation"><img alt="Python 3.10+" src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat&logo=python&logoColor=white"></a>
+  <a href="https://github.com/Yusyer174/Nexus-Agent-Evaluation/blob/main/LICENSE"><img alt="MIT license" src="https://img.shields.io/badge/NEXUS-MIT-159A89?style=flat"></a>
+</p>
+
+<p align="center">
   <a href="https://yusyer174.github.io/Nexus-Agent-Evaluation/"><b>Live Evaluation Lab</b></a> ·
   <a href="#featured-projects">Projects</a> ·
   <a href="#toolkit">Toolkit</a> ·
@@ -44,6 +50,15 @@ I care about clear specifications, testable results, useful documentation and ho
 
 ## Toolkit
 
+<p>
+  <img alt="Python" src="https://img.shields.io/badge/Python-1F3B54?style=for-the-badge&logo=python&logoColor=FFD43B">
+  <img alt="Git" src="https://img.shields.io/badge/Git-1F3B54?style=for-the-badge&logo=git&logoColor=F05032">
+  <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-1F3B54?style=for-the-badge&logo=githubactions&logoColor=93C5FD">
+  <img alt="scikit-learn" src="https://img.shields.io/badge/scikit--learn-1F3B54?style=for-the-badge&logo=scikitlearn&logoColor=F7931E">
+  <img alt="NumPy" src="https://img.shields.io/badge/NumPy-1F3B54?style=for-the-badge&logo=numpy&logoColor=93C5FD">
+  <img alt="pandas" src="https://img.shields.io/badge/pandas-1F3B54?style=for-the-badge&logo=pandas&logoColor=FFFFFF">
+</p>
+
 | Area | Tools and topics |
 | --- | --- |
 | Programming | `Python` · `Git` |
@@ -55,6 +70,13 @@ I care about clear specifications, testable results, useful documentation and ho
 ---
 
 ## Featured projects
+
+<table>
+<tr>
+<td width="50%"><a href="https://github.com/Yusyer174/Nexus-Agent-Evaluation"><img src="assets/nexus-project.svg" alt="NEXUS Agent Evaluation: deterministic evaluation, synthetic cases and evidence IDs" width="100%"></a></td>
+<td width="50%"><a href="https://github.com/Yusyer174/house-prices-prediction-portfolio"><img src="assets/ml-project.svg" alt="California Housing: reproducible historical holdout experiment" width="100%"></a></td>
+</tr>
+</table>
 
 | Project | Focus | Explore |
 | --- | --- | --- |
@@ -92,6 +114,19 @@ Thank you to everyone who has contributed, tested or challenged the implementati
 
 - [AI-Research-Agent #2](https://github.com/hemanthkumar1012/AI-Research-Agent/pull/2) — draft citation-source isolation regression, following maintainer guidance.
 - [RepoHeart #107](https://github.com/OpenAgentHQ/repo-heart/pull/107) — synthetic failed workflow event fixture, awaiting upstream review.
+
+## Engineering notes
+
+A curated log of public work, with links to the underlying evidence.
+
+| Date | Milestone |
+| --- | --- |
+| 27 Nov 2026 | [External cross-version review](https://github.com/Yusyer174/Nexus-Agent-Evaluation/pull/38#issuecomment-7224985678): a contributor identified an interpreter-dependent regression-test assumption. Follow-up pending. |
+| 26 Nov 2026 | [Reproducible package candidate](https://github.com/Yusyer174/Nexus-Agent-Evaluation/pull/33) and [guarded TestPyPI workflow](https://github.com/Yusyer174/Nexus-Agent-Evaluation/pull/34); no published release claimed. |
+| 26 Nov 2026 | [GitLab security scanning configuration](https://github.com/Yusyer174/Nexus-Agent-Evaluation/pull/35) merged; configuration alone does not establish security. |
+| 24–26 Nov 2026 | Five community regression-test PRs merged, with contributions credited above. |
+
+**Working principle:** distinguish observed behavior, proposed improvements and independently reviewed results.
 
 ## 🎯 Goals for 2026–27
 
