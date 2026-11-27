@@ -2,7 +2,7 @@
   <img src="assets/profile-hero.svg" alt="Yus-Builds — AI evaluation, Python and reproducible machine learning" width="100%">
 </p>
 
-<h3 align="center">Technology student · Aspiring AI engineer · Open-source contributor</h3>
+<h3 align="center">Technology student · AI evaluation · Open-source development</h3>
 
 <p align="center">
   <a href="https://yusyer174.github.io/Nexus-Agent-Evaluation/"><b>Live Evaluation Lab</b></a> ·
@@ -10,7 +10,9 @@
   <a href="#collaboration">Collaboration</a>
 </p>
 
-I'm building my foundations in computer science through Python, machine learning and open-source AI evaluation. My interests are reliable software, reproducible experiments and tools that make AI-system behavior easier to evaluate.
+I'm a technology student preparing for computer science and AI engineering. I build Python tools and reproducible machine-learning experiments, with a particular interest in testing and evaluating AI systems.
+
+**Current focus:** improving the reliability of [NEXUS Agent Evaluation](https://github.com/Yusyer174/Nexus-Agent-Evaluation) through regression tests, reproducible examples and community review.
 
 ## Projects
 
@@ -31,8 +33,8 @@ A dependency-free Python evaluator for checking declared agent decisions, reques
 **[Try the demo](https://yusyer174.github.io/Nexus-Agent-Evaluation/) · [CLI quickstart](https://github.com/Yusyer174/Nexus-Agent-Evaluation/blob/main/docs/TRY_IT.md) · [Integration contract](https://github.com/Yusyer174/Nexus-Agent-Evaluation/blob/main/docs/INTEGRATION.md)**
 
 - Five external PRs merged from four contributors as of 26 November 2026.
-- [44 regression tests passed](https://github.com/Yusyer174/Nexus-Agent-Evaluation/actions/runs/45783225937) at the historical [verified revision](https://github.com/Yusyer174/Nexus-Agent-Evaluation/commit/0f4933d3fbfab8db91c74052c4285bba9e600cf6).
-- [Independent cross-version feedback](https://github.com/Yusyer174/Nexus-Agent-Evaluation/pull/38#issuecomment-7224985678) identified an interpreter-dependent testing assumption; follow-up is pending.
+- [Seven CI workflows passed](https://github.com/Yusyer174/Nexus-Agent-Evaluation/actions?query=branch%3Amain) at [main revision `0987823`](https://github.com/Yusyer174/Nexus-Agent-Evaluation/commit/098782399bbf8a988c7a800625694cfe33dd52ff), including cross-platform CLI and reproducible package checks.
+- [External cross-version review](https://github.com/Yusyer174/Nexus-Agent-Evaluation/pull/38#issuecomment-7224985678) identified a test portability issue; the discussion documents the remaining work.
 
 Scope: declaration evaluation, not runtime enforcement, evidence authentication or safety certification.
 
@@ -53,23 +55,19 @@ An educational regression baseline with preprocessing fitted only on training da
   <img alt="pandas" src="https://img.shields.io/badge/pandas-1F3B54?style=for-the-badge&logo=pandas&logoColor=FFFFFF">
 </p>
 
-Currently learning: software verification, agent evaluation and reproducible ML. I use AI-assisted development tools, with a focus on understanding, reviewing and testing the resulting code.
+**Learning:** software verification, agent evaluation and reproducible ML. I use AI-assisted development tools and focus on understanding, reviewing and testing the resulting code.
 
 ## Collaboration
 
-I'm interested in exchanging ideas, reviewing each other's work and building useful open-source tools together.
+I'm open to collaborating on public Python tools, reproducible ML experiments and AI evaluation. I value reciprocal contributions and constructive review.
 
 **NEXUS community contributions:** thank you to [Arniedude5342](https://github.com/Yusyer174/Nexus-Agent-Evaluation/pull/16), [MohamedYasir-006](https://github.com/Yusyer174/Nexus-Agent-Evaluation/pull/20), [Aadithya-kl](https://github.com/Yusyer174/Nexus-Agent-Evaluation/pull/38#issuecomment-7224985678) and [jwalith4418-Mj](https://github.com/Yusyer174/Nexus-Agent-Evaluation/pull/28) for their regression tests and technical feedback.
 
-**Upstream contributions in review:**
+**Upstream work:**
 
 - [AI-Research-Agent #2](https://github.com/hemanthkumar1012/AI-Research-Agent/pull/2) — draft citation-source regression.
 - [RepoHeart #107](https://github.com/OpenAgentHQ/repo-heart/pull/107) — synthetic workflow failure fixture.
 
 [Open issues](https://github.com/Yusyer174/Nexus-Agent-Evaluation/issues?q=is%3Aissue+is%3Aopen) · [Contributor guide](https://github.com/Yusyer174/Nexus-Agent-Evaluation/blob/main/CONTRIBUTING.md) · [Share lab feedback](https://github.com/Yusyer174/Nexus-Agent-Evaluation/issues/8)
 
-Public, synthetic examples only. Please keep sensitive data and credentials out of reports.
-
----
-
-<p align="center"><b>Build carefully. Test openly. Learn together.</b></p>
+For collaboration, use a relevant public repository issue or pull request. Please keep credentials and private data out of examples.
