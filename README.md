@@ -42,7 +42,7 @@ I care about clear specifications, testable results, useful documentation and ho
 
 **Currently exploring:** deterministic agent evaluation · software verification · reproducible ML · responsible AI tooling.
 
-## 🛠 Toolkit
+## Toolkit
 
 | Area | Tools and topics |
 | --- | --- |
@@ -54,7 +54,7 @@ I care about clear specifications, testable results, useful documentation and ho
 
 ---
 
-## 📌 Featured projects
+## Featured projects
 
 | Project | Focus | Explore |
 | --- | --- | --- |
@@ -73,7 +73,7 @@ Preprocessing fitted on training data only. Results describe one historical hold
 
 ---
 
-## 🤝 Open-source collaboration
+## Open-source collaboration
 
 I want to build lasting, reciprocal collaborations around reliable software and AI evaluation. I welcome developers who want to share ideas, review each other's work, or build new open-source tools together.
 
